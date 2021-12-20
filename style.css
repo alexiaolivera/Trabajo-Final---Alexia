@@ -6,6 +6,7 @@
     color: #1f2122;
 }
 
+
 h2{
     color:#59a682;
     text-align: center;
@@ -152,6 +153,11 @@ button{
     width: 80px;
 }
 
+iframe{
+    width: 480px;
+    height: 315px;
+}
+
 
 
 .imgyo{
@@ -217,6 +223,7 @@ button{
 .cardclr2{
     background-color: #1f2122;
     align-content: center;
+    border: none;
 }
 
 .cardclr3{
@@ -245,5 +252,27 @@ button{
     text-indent: 0; 
 }
 
+@media screen and (max-width: 800px){
+    .h1{
+        align-content: center;
+        text-align:center;
+        font-size: 70px;
+        padding: 10px;
+        color: #1f2122;
+    }
+    .nuevoh3{
+        color:#43443d;
+        text-align: center;
+        font-size: 20px;
+    
+    }
+    iframe{
+        width: 280px;
+        height: 215px;
+    }
 
+
+
+    
+}
 
