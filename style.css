@@ -32,17 +32,30 @@ h4{
     font-size: 10px;
 }
 h5{
-    font-size: 50px;
+    font-size: 300%;
     font-style: italic;
     color:#59a682 ;
-    animation-name: ampliar;
-    animation-duration: 3s;
+    animation-name: color1;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
-@keyframes ampliar {
-    to{
-        color:#e0eb7e;
+@keyframes color1 {
+    0% {
+        color: #e0eb7e;
+    }
+    16% {
+        color: #59a682;
+    }
+    32% {
+       color: #fbadfd;
+    }
+    64% {
+        color: #d592f5;
+    }
+    100% {
+        color: #59a682;
     }
 }
 
@@ -75,6 +88,7 @@ u{
 p{
     text-indent: 35px;
     color: rgb(189, 204, 203);
+    font-size: 19px;
 }
 
 .p1{
@@ -161,6 +175,10 @@ button{
     
 }
 
+.imgcirco{
+    width: 100%;
+}
+
 
 
 
@@ -172,14 +190,26 @@ button{
     border: none;
     border-radius: 1px;
     animation-name: cambiarcolorcard;
-    animation-duration: 6s;
+    animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
 }
 
 @keyframes cambiarcolorcard {
-    to{
-        background-color:#e0eb7e
+    0% {
+        background-color: #e0eb7e;
+    }
+    16% {
+        background-color: #59a682;
+    }
+    32% {
+        background-color: #fbadfd;
+    }
+    64% {
+        background-color: #d592f5;
+    }
+    100% {
+        background-color: #59a682;
     }
     
 }
